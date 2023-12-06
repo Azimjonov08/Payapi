@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.hero {
+
+    .hero-box {
+        display: flex;
+        gap: 0 70px;
+    }
+
+    .hero-left {
+        margin-top: 75px;
+    }
+
+    .hero-title {
+        width: 546px;
+        color: #36536B;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.554px;
+        font-family: DM Serif Display;
+    }
+
+    .hero-btn-input {
+        width: 445px;
+        position: relative;
+        margin-bottom: 16px;
+
+        .hero-input {
+            border-radius: 24px;
+            background: #FBFCFE;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            width: 445px;
+            padding: 16px 27px;
+            border: none;
+        }
+
+        .hero-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+    }
+
+    p {
+        color: #6C8294;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+
+}

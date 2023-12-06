@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.work {
+    background: #1B262F;
+    position: relative;
+
+    .work-box {
+        display: flex;
+        align-items: center;
+        gap: 0 50px;
+    }
+
+    .work-left {
+        padding-top: 100px;
+    }
+
+    .work-title {
+        color: #FBFCFE;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.369px;
+        margin-bottom: 24px;
+    }
+
+    .work-text {
+        color: #FBFCFE;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        width: 445px;
+        margin-bottom: 32px;
+        opacity: 0.7;
+    }
+
+    .work-btn {
+        padding: 16px 32px;
+        border-radius: 24px;
+        border: 1px solid #FBFCFE;
+        background: none;
+        margin-bottom: 100px;
+
+        a {
+            color: #FBFCFE;
+            text-align: center;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.115px;
+        }
+    }
+
+    .top{
+        display: flex;
+        gap:62px ;
+        margin-bottom: 45px;
+    }
+
+    .bottom {
+        display: flex;
+        gap: 0 86px;
+    }
+}

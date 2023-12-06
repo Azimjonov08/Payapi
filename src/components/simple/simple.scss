@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.simple {
+
+    .simple-box {
+        display: flex;
+        align-items: center;
+    }
+ 
+
+    .simple-title {
+        color: #36536B;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.369px;
+    }
+
+    .simple-text {
+        margin-top: 10px;
+        color: #6C8294;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 445px;
+    }
+
+    // .iphone-xs {
+    //     position: absolute;
+    // }
+}
