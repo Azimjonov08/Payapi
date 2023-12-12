@@ -7,6 +7,7 @@ import Ready from './components/ready/ready'
 import Footer from './components/footer/footer'
 import Pricing from './components/pricing/pricing'
 import Atop from './components/about-top/atop'
+import Contact from './components/contact/contact'
 import './App.scss'
 
 
@@ -21,7 +22,7 @@ function App() {
       <Simple />
       <Ready />
       <Footer />
-      <div className="span-span"></div>
+      {/*<div className="span-span"></div>
       <h1 className='pricing-title'>Pricing department</h1>
       <div className="span-span1"></div>
       <Header />
@@ -33,6 +34,12 @@ function App() {
       <Header />
       <Atop />
       <Footer />
+      <div className="span-span"></div>
+      <h1 className='pricing-title'>Pricing department</h1>
+      <div className="span-span1"></div>
+      <Header />
+      <Contact />
+      <Footer /> */}
     </>
   )
 }
