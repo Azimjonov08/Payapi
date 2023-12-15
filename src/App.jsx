@@ -1,45 +1,20 @@
-import Header from './components/header/header'
-import Hero from './/components/hero/hero'
-import Work from './components/work/work'
-import Easy from './components/easy/easy'
-import Simple from './components/simple/simple'
-import Ready from './components/ready/ready'
-import Footer from './components/footer/footer'
-import Pricing from './components/pricing/pricing'
-import Atop from './components/about-top/atop'
-import Contact from './components/contact/contact'
 import './App.scss'
-
+import Apages from './pages/about/apages'
+import Home from './pages/home/home'
+import  {Routes, Route} from 'react-router-dom'
+import Ppages from './pages/pricing-pages/ppages'
+import Cpages from './pages/contact-pages/cpages'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Hero />
-      <Work />
-      <Easy />
-      <Simple />
-      <Ready />
-      <Footer />
-      {/*<div className="span-span"></div>
-      <h1 className='pricing-title'>Pricing department</h1>
-      <div className="span-span1"></div>
-      <Header />
-      <Pricing />
-      <Footer />
-      <div className="span-span"></div>
-      <h1 className='pricing-title'>About department</h1>
-      <div className="span-span1"></div>
-      <Header />
-      <Atop />
-      <Footer />
-      <div className="span-span"></div>
-      <h1 className='pricing-title'>Pricing department</h1>
-      <div className="span-span1"></div>
-      <Header />
-      <Contact />
-      <Footer /> */}
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<Apages />} />
+        <Route path='/pricing' element={<Ppages />} />
+        <Route path='/contact' element={<Cpages />} />
+      </Routes>
     </>
   )
 }

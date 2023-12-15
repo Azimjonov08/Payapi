@@ -6,12 +6,16 @@ import Hp from "../../assets/img/hp.png"
 import Oracle from "../../assets/img/oracle.png"
 import Google from "../../assets/img/google.png"
 import Nvi from "../../assets/img/nvi.png"
+import Header from "../../components/header/header"
+import Footer from "../../components/footer/footer"
 
 
 
 
 function Contact() {
     return (
+        <>
+        <Header />
         <section className="contact">
             <div className="container">
                 <h2 className="title">Submit a help request and
@@ -75,6 +79,8 @@ function Contact() {
                 </div>
             </div>
         </section>
+        <Footer />
+        </>
     )
 }
 

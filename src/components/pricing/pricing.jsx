@@ -7,6 +7,7 @@ import Button from "../button/button"
 
 function Pricing() {
     return (
+    
         <section className="pricing">
             <div className="container">
                 <h2 className="title">Pricing</h2>
